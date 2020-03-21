@@ -1,0 +1,16 @@
+[package]
+authors = ["Mike Pedersen <mike@mikepedersen.dk>"]
+edition = "2018"
+name = "skew-forest"
+description = "Skew-binary random access lists"
+version = "0.1.0"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/mpdn/skew-forest"
+categories = ["data-structures"]
+keywords = ["skew-binary"]
+
+[dependencies]
+arrayvec = "0.5.1"
+fixedbitset = "0.2.0"
+debug-tag = "0.1.0"
